@@ -6,7 +6,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          "0.0.7"
 name             "papertrail"
 
-depends          "rsyslog"
+depends          "rsyslog", '2.2.0'
 
 # TODO: test on fedora
 %w{ubuntu}.each do |os|
